@@ -1,0 +1,44 @@
+.listItem {
+  list-style-type: none;
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.image {
+  width: 125px;
+  height: 85px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 8px;
+}
+.genre {
+  color: #3b82f6;
+  font-size: 20px;
+  margin: 8px;
+}
+.EachSongTopContainer {
+  display: flex;
+}
+.EachSongBottomContainer {
+  display: flex;
+}
+.duration {
+  color: #ffffff;
+  margin: 8px;
+}
+.deleteButton {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 8px;
+  outline: none;
+}
+.deleteIcon {
+  color: #ffffff;
+  font-size: 25px;
+}
